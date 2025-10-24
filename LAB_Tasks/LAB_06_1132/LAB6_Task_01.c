@@ -18,7 +18,6 @@ int main() {
     pthread_t threads[NUM_THREADS];
     int thread_args[NUM_THREADS];
 
-
     for (int i = 0; i < NUM_THREADS; ++i) {
         thread_args[i] = i;
         pthread_create(&threads[i], NULL, thread_function, &thread_args[i]);

@@ -22,6 +22,7 @@ void critical_section(int process) {
             count++;
     
     }
+    
    // printf("Process %d has updated count to %d\n", process, count);
     //printf("Process %d is leaving the critical section\n", process);
 }

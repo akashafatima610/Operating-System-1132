@@ -42,7 +42,6 @@ void *process0(void *arg) {
 // Peterson's Algorithm function for process 1
 void *process1(void *arg) {
     
-        
         // pthread_mutex_lock(&mutex); // lock
 
         // Critical section
