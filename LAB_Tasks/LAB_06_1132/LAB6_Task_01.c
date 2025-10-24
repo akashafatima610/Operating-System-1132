@@ -13,7 +13,6 @@ void *thread_function(void *arg) {
     printf("Thread %d is executing the global value is %d: local vale is %d:   process id %d:  \n", thread_id,varg,varl,getpid());
     return NULL;
 }
-
 int main() {
     pthread_t threads[NUM_THREADS];
     int thread_args[NUM_THREADS];

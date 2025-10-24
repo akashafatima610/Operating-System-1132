@@ -5,13 +5,11 @@
 
 int count=10;
 
-
-
 // Critical section function
 void critical_section(int process) {
     //printf("Process %d is in the critical section\n", process);
     //sleep(1); // Simulate some work in the critical section
-    
+
     if(process==0){
 
         for (int i = 0; i < NUM_ITERATIONS; i++)
