@@ -49,7 +49,7 @@ void *process1(void *arg) {
         // Exit section
 
         pthread_mutex_unlock(&mutex); // unlock
-       
+    
     return NULL;
 }
 

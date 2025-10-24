@@ -22,7 +22,6 @@ void critical_section(int process) {
             count++;
     
     }
-
    // printf("Process %d has updated count to %d\n", process, count);
     //printf("Process %d is leaving the critical section\n", process);
 }
@@ -40,6 +39,7 @@ void *process0(void *arg) {
         // Exit section
         flag[0] = 0;
         //sleep(1);
+
     
     pthread_exit(NULL);
 
